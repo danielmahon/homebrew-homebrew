@@ -2,7 +2,7 @@ require "formula"
 
 class Mackup < Formula
   homepage "https://github.com/danielmahon/mackup"
-  url "https://github.com/danielmahon/mackup", :using => :git
+  url "https://github.com/danielmahon/mackup.git", :using => :git
   head "https://github.com/danielmahon/mackup.git"
 
   def install
