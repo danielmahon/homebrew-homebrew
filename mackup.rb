@@ -1,11 +1,11 @@
 require "formula"
 
 class Mackup < Formula
-  homepage "https://github.com/danielmahon/homebrew-mackup"
-  url "https://github.com/danielmahon/homebrew-mackup/archive/0.8.3.tar.gz"
+  homepage "https://github.com/danielmahon/mackup"
+  url "https://github.com/danielmahon/mackup/archive/0.8.3.tar.gz"
   sha1 "09e455ab0e8efec8500ba07fef3e8b3633c13d28"
 
-  head "https://github.com/danielmahon/homebrew-mackup.git"
+  head "https://github.com/danielmahon/mackup.git"
 
   def install
     ENV.prepend_create_path "PYTHONPATH", libexec/"lib/python2.7/site-packages"
