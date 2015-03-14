@@ -3,7 +3,7 @@ require "formula"
 class Mackup < Formula
   homepage "https://github.com/danielmahon/mackup"
   url "https://github.com/danielmahon/mackup/archive/0.8.5.tar.gz"
-  sha1 "092e22e87f71e9f9b71ea2d43ffe00c6a28289c2"
+  sha1 "821854358369aafeb325201348a4913c8625e987"
 
   head "https://github.com/danielmahon/mackup.git"
 
